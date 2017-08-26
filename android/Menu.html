@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="target-densitydpi=medium-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+        
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/common.css" rel="stylesheet" />
+    <link href="css/menu.css" rel="stylesheet" />
+    <title>PDA</title>
+</head>
+<body class="body">
+    <header>
+        <div class="row myhead">
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-4  hd-left"></div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 hd-middle">
+                <h4>菜单</h4>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-4 hd-right">
+              
+            </div>
+
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-0 col-sm-2 col-md-3 col-lg-4"></div>
+            <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4">
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="Receiving.html">
+                                <div class="icon i1"><i class="fa fa-eject" ></i>
+                                   <!-- <span class="badge">1</span>-->
+                                </div>
+                                <div class="text">收货上架</div>
+                            </a>
+                            
+                        </li>
+                         <li>
+                            <a href="Shipping.html">
+                                <div class="icon i2"><i class="fa fa-download" ></i> 
+                                    <!-- <span class="badge">1</span>-->
+                                    </div>
+                                <div class="text"> 出货下架</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ShippingLoading.html">
+                                <div class="icon i3"><i class="fa fa-truck" ></i> 
+                                     <!-- <span class="badge">1</span>-->
+                                    </div>
+                                <div class="text"> 出货装车</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ShippingOut.html">
+                                <div class="icon i4"><i class="fa fa-road" ></i> 
+                                     <!-- <span class="badge">1</span>-->
+                                    </div>
+                                <div class="text"> 出货放行</div>
+                            </a>
+                        </li>
+                         <li>
+                            <a href="HubBin.html">
+                                <div class="icon i5"><i class="fa fa-exchange" ></i></div>
+                                <div class="text"> 储位移位</div>
+                            </a>
+                        </li>
+                         <li>
+                            <a href="Inventory.html">
+                                <div class="icon i6"><i class="fa fa-search" ></i></div>
+                                <div class="text"> 盘点作业</div>
+                            </a>
+                        </li>
+                          <li>
+                            <a href="ReceivingException.html">
+                                <div class="icon i7"><i class="fa fa-paper-plane" ></i></div>
+                                <div class="text"> 收货异常</div>
+                            </a>
+                        </li>
+                         <li>
+                            <a href="ShippingException.html">
+                                <div class="icon i8"><i class="fa fa-paper-plane-o" ></i></div>
+                                <div class="text"> 出货异常</div>
+                            </a>
+                        </li>
+                         <li>
+                            <a href="javascript:Logout();">
+                                <div class="icon i9"><i class="fa fa-sign-out" ></i></div>
+                                <div class="text"> 退出登录</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            <div class="col-xs-0 col-sm-2 col-md-6 col-lg-4"></div>
+        </div>
+    </div>
+    <div id="wait">
+           <img src="img/loading.gif">
+    </div>
+</body>
+</html>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/Common.js"></script>
